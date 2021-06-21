@@ -5,13 +5,15 @@ import "./BirthdayCard.css";
 
 const BirthdayCard = () => {
   let [people, setPeople] = useState(peopleData);
+  let [num, setNum] = useState(peopleData.length);
 
   const clearAll = () => {
     setPeople([]);
+    setNum("No");
   };
   return (
     <section className="birthdayCard">
-      <h2>5 Birthdays Today</h2>
+      <h2>{num} Birthdays Today</h2>
       {people.map((person) => {
         return <Person {...person} />;
       })}
