@@ -1,0 +1,16 @@
+.person {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.person .imgDiv {
+  padding: 1rem;
+}
+.person .profileImg {
+  object-fit: cover;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.person h4 {
+  margin-top: 1.5rem;
+}

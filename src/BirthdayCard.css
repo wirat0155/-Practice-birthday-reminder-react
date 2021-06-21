@@ -1,0 +1,43 @@
+.birthdayCard {
+  background-color: white;
+  width: 90vw;
+  max-width: 1000px;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.25rem;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
+}
+.birthdayCard h2 {
+  padding: 1rem;
+}
+.birthdayCard button {
+  background-color: #1da1f2;
+  color: white;
+  font-size: 1.25rem;
+  width: 80%;
+  margin: 1rem;
+  border: 0px;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.birthdayCard button:hover {
+  background-color: #198bd1;
+}
+
+@media screen and (min-width: 768px) {
+  .birthdayCard {
+    width: 40vw;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .birthdayCard {
+    width: 30vw;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .birthdayCard {
+    width: 20vw;
+  }
+}
